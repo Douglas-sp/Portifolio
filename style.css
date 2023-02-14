@@ -29,20 +29,24 @@ header h1 {
     text-align: center;
     background-color: #f7f7f7;
     padding: 10px;
+    background-image: linear-gradient(to right, #ff6699, #0049b0, #732fd8);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
   }
 
-  /* nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  /* NAVBAR color anime */
+
+  /* .navbar-nav li a {
+    color: #ffffff;
+    transition: color 0.2s;
+  }
+  
+  .navbar-nav li a:hover, .navbar-nav li a:active {
+    color: #f8b739;
   } */
+
+  /*end of NAVBAR color anime */
   
   nav .logo {
     display: flex;
@@ -145,5 +149,12 @@ header h1 {
     padding-top: 0px;
   }
 
-  
+  footer{
     
+    
+  }
+  
+  .material-icons {
+    font-size: 24px;
+  }
+  

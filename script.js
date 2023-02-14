@@ -35,3 +35,37 @@ const navSlide = () => {
 	}
 
 window.onload = () => navSlide();
+
+
+
+
+
+
+
+
+////////form openAI playground///////
+
+// Get the form element
+let form = document.querySelector("#formId");
+ 
+// Listen for a submit event
+form.addEventListener("submit", function(e){
+ 
+    // Instantiate an empty object for the form data
+    let formData = {};
+ 
+    // Get the form data elements and loop over them
+    let elements = this.elements;
+    for (let i = 0; i < elements.length; i++){
+        let item = elements.item(i);
+        
+        // Add the data to the formData object
+        formData[item.name] = item.value;
+    }
+ 
+    // Do something with the form data
+    console.log(formData);
+ 
+    // Stop the form from submitting
+    e.preventDefault();
+});
