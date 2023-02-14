@@ -1,68 +1,118 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Raymond Douglas <br>Wamani- Freelancer & Developer Portfolio</title>
+	<title>Your Name - Freelancer & Developer Portfolio</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	
+	<!-- Add the Bootstrap stylesheet link -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	
+	<!-- Add your custom stylesheet link -->
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<header>
-		<h1>Raymond Douglas <br>Wamani</h1>
-		<h2>Freelancer & Developer Portfolio</h2>
-		<nav>
-			<ul>
-				<li><a href="#about">About</a></li>
-				<li><a href="#copywriting">Copywriting</a></li>
-				<li><a href="#flutter">Flutter Development</a></li>
-				<li><a href="#ui">UI Design</a></li>
-				<li><a href="#python">Python Development</a></li>
-				<li><a href="#ml">Machine Learning</a></li>
-				<li><a href="#contact">Contact</a></li>
+	<!-- Add the navigation bar with Bootstrap styling -->
+	<nav class="navbar navbar-expand-md navbar-light bg-light">
+		<a class="navbar-brand" href="#">Your Name</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNav">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#about">About</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#skills">Skills</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#contact">Contact</a>
+				</li>
 			</ul>
-		</nav>
-	</header>
+		</div>
+	</nav>
 	
-	<main>
-		<section id="about">
-			<h3>About</h3>
-			<p>Introduce yourself and your skills.</p>
-		</section>
-		
-		<section id="copywriting">
-			<h3>Copywriting</h3>
-			<p>Describe your experience and provide writing samples.</p>
-		</section>
-		
-		<section id="flutter">
-			<h3>Flutter Development</h3>
-			<p>Describe your experience and provide code snippets or links to projects.</p>
-		</section>
-		
-		<section id="ui">
-			<h3>UI Design</h3>
-			<p>Describe your experience and provide screenshots or links to designs.</p>
-		</section>
-		
-		<section id="python">
-			<h3>Python Development</h3>
-			<p>Describe your experience and provide code snippets or links to projects.</p>
-		</section>
-		
-		<section id="ml">
-			<h3>Machine Learning</h3>
-			<p>Describe your experience and provide links to projects or articles.</p>
-		</section>
-		
-		<section id="contact">
-			<h3>Contact</h3>
-			<p>Include a contact form or links to your email and social media profiles.</p>
-		</section>
-	</main>
+	<!-- Add the home section with Bootstrap styling -->
+	<section id="home">
+		<div class="container">
+			<h1>Welcome to My Portfolio</h1>
+			<p class="lead">I am a freelancer, copywriter, Flutter developer, UI designer, Python developer, and ML engineer. Scroll down to learn more about me and my work.</p>
+		</div>
+	</section>
 	
-	<footer>
-		<p>Copyright &copy; Sponder 2023</p>
-	</footer>
-</body>
-</html>
+	<!-- Add the about section with Bootstrap styling -->
+	<section id="about">
+		<div class="container">
+			<h3>About Me</h3>
+			<p>Describe your background, education, and experience.</p>
+		</div>
+	</section>
+	
+	<!-- Add the skills section with Bootstrap styling -->
+	<section id="skills">
+		<div class="container">
+			<h3>Skills</h3>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="card">
+						<div class="card-body">
+							<h4 class="card-title">Flutter Development</h4>
+							<p class="card-text">Describe your experience and provide code snippets or links to projects.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="card">
+						<div class="card-body">
+							<h4 class="card-title">UI Design</h4>
+							<p class="card-text">Describe your experience and provide examples of your work.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="card">
+						<div class="card-body">
+							<h4 class="card-title">Machine Learning</h4>
+                                <p class="card-text">Describe your experience and provide code snippets or links to projects.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Add the contact section with Bootstrap styling -->
+        <section id="contact">
+            <div class="container">
+                <h3>Contact Me</h3>
+                <form action="mailto:youremail@example.com" method="post" enctype="text/plain">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" class="form-control" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email address:</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </section>
+        
+        <footer >
+            <p>Copyright &copy; Sponder 2023</p>
+        </footer>
+
+        <!-- Add the Bootstrap JavaScript and jQuery scripts at the end of the body -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        
