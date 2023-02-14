@@ -157,9 +157,19 @@ header h1 {
     width: 24px;
     height: 24px;
   }
-  
-  .fa-3x {
-       
 
-  }
+  .list-unstyled li {
+  margin-bottom: 10px;
+}
+
+.fa-lg {
+  font-size: 1.5em;
+  margin-right: 5px;
+}
+
+.fa-2x {
+  font-size: 2em;
+  margin-right: 5px;
+}
+
     
