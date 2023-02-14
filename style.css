@@ -55,7 +55,7 @@ header h1 {
   
   nav .logo img {
     height: 30px;
-    margin-right: 10px;
+    margin-right: 40px;
   }
   
   .header {
@@ -70,7 +70,7 @@ header h1 {
   
   
   nav {
-    /* max-width: 960px; */
+    max-width: 960px;
     margin: 0 auto;
     position: fixed;
     top: 0;
@@ -82,7 +82,17 @@ header h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+     
   }
+
+  .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  
   
   nav ul {
     list-style: none;
@@ -102,37 +112,38 @@ header h1 {
     font-weight: bold;
   }
   
+  /*  PROFILE PICTURE */
+
+ 
+
   .profile-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 100px;
+    padding-right: 0px;
+    margin-right: 0px;
+  }
+  .info-container{
+    padding-left: 0px;
+    margin-left: 0px;
   }
   
-  .profile-picture {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    overflow: hidden;
-    margin-bottom: 20px;
-    box-shadow: 0 0 0 10px #333;
-  }
-  
-  .profile-picture img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-  }
-  
-  /* h1 {
-    font-size: 26px;
-    margin: 0;
-    color: aqua;
-
-  } */
-
   .myname{
-    color: rgb(0, 110, 255);
+    background-image: radial-gradient(circle,#00B4DB, #0049b0, #732fd8);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    }
+  .last-name{
+    /* color:rgb(61, 139, 240); */
+    background-image: linear-gradient(to right, #ff6699, #ffcc99);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
   }
   
-        
+
+  #home {
+    margin-top: 0;
+    padding-top: 0px;
+  }
+
+  
+    
