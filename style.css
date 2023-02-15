@@ -55,6 +55,7 @@ header h1 {
     color: #fff;
     font-size: 1.5rem;
     font-weight: bold;
+    margin-left: 40px;
   }
   
   nav .logo img {
@@ -74,7 +75,7 @@ header h1 {
   
   
   nav {
-    max-width: 960px;
+    max-width: 100%;
     margin: 0 auto;
     position: fixed;
     top: 0;
