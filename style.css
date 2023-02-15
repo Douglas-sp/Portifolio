@@ -125,10 +125,30 @@ header h1 {
     font-weight: bold;
   }
   
-  /*  PROFILE PICTURE */
+  #navbarNav {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+  
+  /* .nav-link {
+    color: #333;
+  
+  }
+
+  .nav-link:hover {
+    color: #0049b0;
+  }
+
+  .nav-link.active {
+    color:#fff;
+    background-color: #e43636;
+  } */
 
  
 
+
+  
   .profile-container {
     padding-right: 0px;
     margin-right: 0px;
